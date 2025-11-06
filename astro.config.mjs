@@ -6,5 +6,7 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
-  },
+  }, 
+  site: 'https://tonicodev.github.io',
+    base: '/portfolio',
 });

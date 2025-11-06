@@ -1,24 +1,24 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  name: "Toni Moya",
+  title: "Senior Software Engineer | .NET, Cloud & Modern Frontends",
+  description: "Portfolio website of Toni Moya",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "toni.codeworks@gmail.com",
+    linkedin: "https://linkedin.com/in/antoniojmoyabejarano",
+    //twitter: "https://x.com/rfitzio",
+    github: "https://github.com/tonicodev",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "Senior software engineer with 15+ years of experience building scalable enterprise applications, mainly within the energy and corporate sectors. Specialized in .NET and Azure ecosystems, and adaptable to modern web and cloud technologies such as Vue.js, React, and AWS. Passionate about designing robust cloud solutions, efficient APIs, and modern SPA frontends focused on maintainability and performance.",
+  skills: ["Software Architecture", "Tech Lead", "Design Patterns", ".NET", "Azure", "AWS", "Vue.js", "Javascript"],
   projects: [
     {
       name: "AI Dev Roundup Newsletter",
       description:
         "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
       link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+      skills: [".NET", "Azure", "Vue.js"],
     },
     {
       name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",

@@ -56,7 +56,7 @@ accentColor: "#1d4ed8", // Hex color for theme
 ```typescript
 social: {
   email: "your-email@example.com",
-  linkedin: "https://linkedin.com/in/yourprofile",
+  linkedin: "https://linkedin.com/in/antoniojmoyabejarano",
   twitter: "https://twitter.com/yourprofile", 
   github: "https://github.com/yourusername",
 }
