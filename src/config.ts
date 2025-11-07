@@ -9,8 +9,11 @@ export const siteConfig = {
     //twitter: "https://x.com/rfitzio",
     github: "https://github.com/tonicodev",
   },
-  aboutMe:
-    "Senior software engineer with 15+ years of experience building scalable enterprise applications, mainly within the energy and corporate sectors. Specialized in .NET and Azure ecosystems, and adaptable to modern web and cloud technologies such as Vue.js, React, and AWS. Passionate about designing robust cloud solutions, efficient APIs, and modern SPA frontends focused on maintainability and performance.",
+  aboutMe: [
+      "Senior software engineer with 15+ years’ experience in building scalable enterprise applications — primarily in the energy and corporate sectors.",
+      "Specialized in .NET, Azure, and Vue.js ecosystems, and proficient in modern web and cloud technologies like React and AWS.",
+      "Passionate about crafting robust cloud solutions, efficient APIs and modern SPA front‑ends, with a strong focus on maintainability, performance and technical quality."
+  ], 
   skills: ["Software Architecture", "Tech Lead", "Design Patterns", ".NET", "Azure", "AWS", "Vue.js", "Javascript"],
   projects: [
       {
