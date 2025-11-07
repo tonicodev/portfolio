@@ -13,80 +13,113 @@ export const siteConfig = {
     "Senior software engineer with 15+ years of experience building scalable enterprise applications, mainly within the energy and corporate sectors. Specialized in .NET and Azure ecosystems, and adaptable to modern web and cloud technologies such as Vue.js, React, and AWS. Passionate about designing robust cloud solutions, efficient APIs, and modern SPA frontends focused on maintainability and performance.",
   skills: ["Software Architecture", "Tech Lead", "Design Patterns", ".NET", "Azure", "AWS", "Vue.js", "Javascript"],
   projects: [
+      {
+          name: "HAPI Web App",
+          description:
+              "Led and contributed to the migration of a .NET Windows Forms application to a modern web SPA built with Vue.js and TypeScript for the energy company Naturgy.",
+          link: "",
+          skills: [".NET", "Azure", "Vue.js", "vuetify", "devextreme", "typescript", "javascript", "energy"],
+      },
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "Incident Scheduling Web App",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: [".NET", "Azure", "Vue.js"],
+        "Designed a prototype (mockup) of a web application for the energy company Naturgy.",
+      link: "https://tonicodev.github.io/agendaIncidencias",
+      skills: [".NET", "Azure", "Vue.js", "vuetify", "typescript", "javascript", "energy"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "ETL Tool Development: CATyE",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Contributed to the development team responsible for creating the ETL tool \"CATyE\"",
+      link: "",
+      skills: [".NET", "Windows Forms", "SQLServer", "ADO.NET", "WCF"],
     },
     {
-      name: "ExtensionKit",
+      name: "App Web Registro de Inducciones",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Developed an internal web application for the Gynecology department at Vélez-Málaga Regional Hospital",
+      link: "",
+      skills: [".NET", "Vue.js", "vuetify", "PostgreSQL", "typescript", "javascript"],
     },
   ],
   experience: [
     {
-      company: "Tech Company",
+      company: "Unatec",
+      title: "Engineering Lead",
+      dateRange: "Jul 2018 - Present",
+      bullets: [
+        "Led migration from legacy .NET systems to Azure-based microservices",
+        "Oversaw frontend modernization using Vue.js and TypeScript",
+        "Mentored developers, fostering technical growth and best practices",
+        "Improved scalability and maintainability across enterprise solutions",
+        "Implemented CI/CD pipelines and DevOps workflows to optimize deployments"
+      ],
+    },
+    {
+      company: "Unatec",
       title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      dateRange: "Jul 2014 - Jun 2018",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
+        "Developed and maintained scalable web applications using ASP.NET and jQuery",
+        "Designed RESTful APIs and integrated them with JS frontends",
+        "Implemented cloud solutions and CI/CD pipelines in Azure",
+        "Improved performance and maintainability of enterprise applications"
       ],
     },
     {
-      company: "Startup Inc",
+      company: "ICES SA",
       title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
+      dateRange: "May 2012 - Jul 2014",
       bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
-    },
-    {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
+          "Built full stack web applications using .NET Framework",
+          "Developed RESTful APIs and integrated them with frontend",
+          "Worked across backend and frontend layers to deliver end-to-end features",
       ],
     },
   ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "University of Córdoba, Spain",
+      degree: "Bachelor’s Degree in Computer Management Engineering",
+      dateRange: "2012",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
       ],
     },
     {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
+      school: "Microsoft",
+      degree: "Microsoft Certified: Azure Developer Associate", 
+      link: "https://learn.microsoft.com/api/credentials/share/es-es/AntonioMoyaBejarano-9208/FA1CDCEBDA3832CE?sharingId=95A567FE75CC0CD5",
+      dateRange: "2022",
       achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
       ],
     },
+      {
+          school: "Microsoft",
+          degree: "Microsoft Certified Solutions Developer: Web Applications",
+          dateRange: "2016",
+          achievements: [
+          ],
+      },
+      {
+          school: "Microsoft",
+          degree: "Microsoft Certified Solutions Developer: App Builder",
+          dateRange: "2016",
+          achievements: [
+          ],
+      },
+      {
+          school: "Microsoft",
+          degree: "Microsoft Specialist: Programming in C#",
+          dateRange: "2016",
+          achievements: [
+          ],
+      },
+      {
+          school: "Microsoft",
+          degree: "MCPS: Microsoft Certified Professional",
+          dateRange: "2016",
+          achievements: [
+          ],
+      },
   ],
 };
