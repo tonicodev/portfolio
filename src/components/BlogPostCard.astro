@@ -1,0 +1,15 @@
+﻿---
+const { title, date, tags, slug } = Astro.props;
+---
+
+<section id="blog">
+<a href={`/portfolio/blog/${slug}`} class="block p-4 border rounded hover:shadow-lg transition">
+    <h3 class="text-xl font-semibold">{title}</h3>
+    <p class="text-gray-500 text-sm">{date}</p>
+    <div class="mt-2 flex flex-wrap gap-2">
+        {tags.map((tag: any) => (
+                <span class="text-blue-600 text-xs font-medium bg-blue-100 px-2 py-1 rounded"> {tag} </span>
+        ))}
+    </div>
+</a>
+</section>

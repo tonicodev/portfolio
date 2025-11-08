@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Toni Moya",
-  title: "Senior Software Engineer | .NET, Cloud & Modern Frontends",
+  title: "Engineering Lead | .NET, Azure & JS ecosystems | Technical leadership & mentoring",
   description: "Portfolio website of Toni Moya",
   accentColor: "#1d4ed8",
   social: {
@@ -9,12 +9,14 @@ export const siteConfig = {
     //twitter: "https://x.com/rfitzio",
     github: "https://github.com/tonicodev",
   },
-  aboutMe: [
-      "Senior software engineer with 15+ years’ experience in building scalable enterprise applications — primarily in the energy and corporate sectors.",
-      "Specialized in .NET, Azure, and Vue.js ecosystems, and proficient in modern web and cloud technologies like React and AWS.",
-      "Passionate about crafting robust cloud solutions, efficient APIs and modern SPA front‑ends, with a strong focus on maintainability, performance and technical quality."
-  ], 
-  skills: ["Software Architecture", "Tech Lead", "Design Patterns", ".NET", "Azure", "AWS", "Vue.js", "Javascript"],
+    aboutMe: [
+        "I’m an Engineering Lead with over 15 years of experience developing and leading enterprise solutions in the energy and corporate sectors.",
+        "Specialized in the .NET, Azure, and JavaScript ecosystems, with strong expertise in modern frameworks like Vue.js, I design and drive architectures focused on scalability, performance, and maintainability.",
+        "I’ve led the definition and adoption of hybrid development methodologies, combining practices from XP, Agile, and RUP to optimize collaboration, continuous delivery, and software quality. I’ve also guided migrations from legacy environments toward modular architectures based on design patterns and engineering best practices, ensuring sustainable and efficient processes.",
+        "I’m deeply passionate about mentoring and continuous improvement, helping developers grow technically and professionally while fostering a culture of excellence and shared ownership.",
+        "My approach blends strategic vision with hands-on technical leadership, always aiming to build solutions that are solid, sustainable, and aligned with business goals."
+    ],
+  skills: ["Software Architecture", "Tech Lead", "Design Patterns", ".NET", "Azure", "Vue.js", "Javascript", "xp", "agile", "rup"],
   projects: [
       {
           name: "HAPI Web App",
